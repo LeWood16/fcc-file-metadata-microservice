@@ -1,0 +1,34 @@
+{
+  "name": "file_metadata_microservice",
+  "version": "1.0.0",
+  "description": "a full stack metadata microservice for freeCodeCamp",
+  "main": "server.js",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeWood16/fcc-file-metadata-microservice"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "gulp m",
+    "watch": "gulp watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "gulp": "3.8.11",
+    "gulp-mocha": "2.0.1",
+    "mocha": "2.2.4"
+  },
+  "engines": {
+    "node": "^4.7.3",
+    "npm": "^4.5.0"
+  }
+}
